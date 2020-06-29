@@ -1,0 +1,22 @@
+{
+  "name": "browserify-basic-example",
+  "version": "1.0.0",
+  "description": "Browserify basic example.",
+  "main": "index.js",
+  "scripts": {
+    "build": "watchify ./src/js/index.js -o ./public/js/bundle.js"
+  },
+  "keywords": [
+    "browserify"
+  ],
+  "author": "Francisco de Jesús Flores Muñoz",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "3.5.1",
+    "uniq": "1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "16.5.1",
+    "watchify": "3.11.1"
+  }
+}
